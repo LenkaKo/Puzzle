@@ -19,12 +19,20 @@ body{
     flex-wrap: wrap;
     width: 450px;
     height: 450px;
+    position: relative;
 }
 
 .fiel {
+    position: absolute;
     border: 1px solid #fff;
     height: 150px;
     width: 150px;
-    color: #fff;
+    color: transparent;
     font-size: 30px;
+    transition: top 0.2s linear, left 0.2s linear;
+    background: url(img/ff8ad703a347491553fce1b4862ecc2d.jpg);
+}
+.fiel:last-of-type {
+    background: none;
+    border: none;
 }
