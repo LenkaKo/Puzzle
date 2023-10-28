@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, .fiel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #1b1b1b;
+    height: 100vh;
+}
+
+#game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 450px;
+}
+
+.fiel {
+    border: 1px solid #fff;
+    height: 150px;
+    width: 150px;
+    color: #fff;
+    font-size: 30px;
+}
